@@ -4,14 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^5.0.8"
   },
-  "homepage": "https://karunika.github.io/gatherallhearts/"
+  "homepage": "https://karunika.github.io/gatherallhearts/",
+  "dependencies": {
+    "kaboom": "^3000.1.17"
+  }
 }
